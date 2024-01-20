@@ -1,0 +1,19 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src",
+    ],
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": ""
+    },
+    "terminal.integrated.cwd": "${workspaceFolder}/",
+    "python.envFile": "${workspaceFolder}/.env",
+    "jupyter.notebookFileRoot": "${workspaceFolder}/src",
+    "python.defaultInterpreterPath": "",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    }
+}
